@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+button:hover {
+  color: cornsilk;
+  background-color: black;
+}
+.list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  margin-right: 10px;
+}

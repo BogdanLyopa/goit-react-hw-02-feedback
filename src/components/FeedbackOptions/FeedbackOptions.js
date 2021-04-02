@@ -1,9 +1,14 @@
+import styles from './FeedbackOptions.module.css';
 const FeedbackOptions = ({ options, countFeedback }) => {
   return (
-    <ul>
+    <ul className={styles.list}>
       {options.map((option, index) => (
-        <li key={index}>
-          <button name={option} onClick={countFeedback}>
+        <li className={styles.item} key={index}>
+          <button
+            className={styles.button}
+            name={option}
+            onClick={countFeedback}
+          >
             {option}
           </button>
         </li>
